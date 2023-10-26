@@ -17,4 +17,9 @@ public class WelcomeController {
 		
 		return this.service.getCity();
 	}
+	
+	public String getDetails() {
+		
+		return "Details";
+	}
 }
